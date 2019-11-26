@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.background{
+    background-color: hsl(207, 33%, 95%);
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 4rem;
+}
