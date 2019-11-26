@@ -9,11 +9,15 @@
 }
 body{
     font-family: 'Barlow', sans-serif;
+    padding-bottom: 50px;
 }
 
 h1{
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
+    color:  hsl(230, 29%, 20%);
+    margin: 1rem 0;
+    font-size: 4rem;
 }
 
 .background{
@@ -24,3 +28,101 @@ h1{
     right: 0;
     border-bottom-left-radius: 4rem;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 4rem 0;
+}
+
+.link{
+    color: hsl(230, 29%, 20%);
+    margin-right: 3rem;
+}
+
+nav a:hover{
+text-decoration: underline;
+
+}
+
+nav a{
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    color: hsl(230, 29%, 20%);
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Main Content*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+.badge{
+    background-color:hsl(230, 29%, 20%);
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 6px 14px;
+    border-radius: 100px;
+}
+
+.main-paragraph{
+    margin-bottom: 4rem;
+    color: hsl(231, 7%, 65%);
+    font-size: 1.2rem;
+}
+
+.button-container{
+    display: flex;
+}
+
+.button{
+    border: none;
+    background-color: hsl(0, 100%, 68%) ;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 32px;
+    padding: 1.3rem 2.5rem;
+ 
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(207, 33%, 95%);
+}
+
+.button-p{
+    text-transform: uppercase;
+    padding: 1.3rem;
+    letter-spacing: 2px;
+    color:  hsl(231, 7%, 65%);
+    font-weight: 400;
+}
+
+
+
+
+
